@@ -1,0 +1,17 @@
+# env should be created with conda/mamba
+name: dcf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=23.1.2
+  - pip:
+    - tqdm==4.65.0
+    - pytest==7.3.1
+    - numpy==1.24.3
+    - scipy==1.10.1
+    - pandas==2.0.2
+    - numba==0.57.0
+    - matplotlib==3.7.1
+    - ipykernel==6.23.1
+    - jupyter==1.0.0
