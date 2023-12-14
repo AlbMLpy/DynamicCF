@@ -138,3 +138,5 @@ Moreover, if you want to run all the experiments youself you can use the followi
    ```
    where DATA=amz_b/amz_g/ml_20m/steam, to prepare the graphs of the experiments.
 
+# Acknowledgements
+This work is supported by the [RSCF Grant 22-21-00911](https://rscf.ru/en/project/22-21-00911/).
