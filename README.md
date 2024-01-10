@@ -1,9 +1,9 @@
 # Dynamic Collaborative Filtering
 
+Official repository for ["Dynamic Collaborative Filtering for Matrix- and Tensor-based Recommender Systems"](https://arxiv.org/abs/2312.10064) paper.
+
 ## Project Description:
-In production applications of recommender systems, a constant data flow is used to train a model. Most of the models need retraining from scratch to fit the new data. In this work we develop a novel collaborative filtering model for sequential problem statement based on Tucker Integrator - TIRec. 
-This model can update its parameters effectively using the new data. New users and items are added to a recommender incrementally.
-To demonstrate the efficiency of the proposed model we use four publicly available datasets: MovieLens 20M, Amazon Beauty, Amazon Toys and Games, and Steam. We compare the proposed models with a general Tucker Decomposition method and other baselines in terms of prediction quality and computational time. The experiments confirm that TIRec has comparable quality to the baseline methods. Whereas the TIRecA model can be 10-20 times faster then the other baselines.
+In production applications of recommender systems, a continuous data flow is employed to update models in real-time. Many recommender models often require complete retraining to adapt to new data. In this work, we introduce a novel collaborative filtering model for sequential problems known as Tucker Integrator Recommender - TIRecA. TIRecA efficiently updates its parameters using only the new data segment, allowing incremental addition of new users and items to the recommender system. To demonstrate the effectiveness of the proposed model, we conducted experiments on four publicly available datasets: MovieLens 20M, Amazon Beauty, Amazon Toys and Games, and Steam. Our comparison with general matrix and tensor-based baselines in terms of prediction quality and computational time reveals that TIRecA achieves comparable quality to the baseline methods, while being 10-20 times faster in training time.
 
 ## Datasets
 In this work, we use the following publicly available datasets in recommender systems field: Movielens-20M (ML-20M), 
